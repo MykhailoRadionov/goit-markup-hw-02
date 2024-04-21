@@ -10,7 +10,7 @@ button {
 /*---------body----------*/
 body {
     font-family: 'Roboto', sans-serif;
-    color: #111111;
+    color: #434455;
     background-color: #fff;
 }
 .menu-link:hover,
@@ -70,7 +70,7 @@ color: #fff;
 }
 .button-order-service {
 border-radius: 4px;
-    padding: 16px 32px;
+    
     width: 169px;
     height: 56px;   
     background: #4d5ae5;
@@ -100,7 +100,6 @@ background: #404bbf;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
-    text-align: center;
         color: #2e2f42;
 }
 .paragraph-three{
@@ -126,7 +125,6 @@ background: #404bbf;
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 .paragraph-four {
