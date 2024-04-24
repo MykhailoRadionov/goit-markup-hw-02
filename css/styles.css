@@ -53,7 +53,7 @@ body {
         color: #2e2f42;
 }
 /*--------address---------*/
-.page-address-contacts {
+.address-clik {
     font-style: normal;
 }
 .menu-link-address {
@@ -109,6 +109,9 @@ background: #404bbf;
     color: #434455;
 }
 /*---------section-three---------*/
+.our-team-section {
+    background-color: #F4F4FD;
+}
 .section-thre {
         font-weight: 700;
         font-size: 36px;
@@ -134,7 +137,6 @@ background: #404bbf;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-       
         color: #434455;
 }
 /*---------section-four---------*/
@@ -164,10 +166,10 @@ background: #404bbf;
 }
 /*---------section-four---------*/
 .page-footer {
-background: #2e2f42;
+    background: #2e2f42;
 }
 .logo-footer {
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
