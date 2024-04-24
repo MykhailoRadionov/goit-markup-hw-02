@@ -83,7 +83,7 @@ color: #fff;
     color:#fff
 }
 .button-order-service {
-border-radius: 4px;
+
 font-family: "Roboto", sans-serif;
     
    
@@ -112,7 +112,7 @@ background: #404bbf;
 .our--team-section {
     background-color: #F4F4FD;
 }
-.section-thre- {
+.section-thre-foto {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -121,7 +121,7 @@ background: #404bbf;
         text-align: center;
         text-transform: capitalize;
 }
-.menu-section-thre {
+.list-thre {
     background-color: #FFFFFF;
 }
 .paragraph-thre{
@@ -140,7 +140,7 @@ background: #404bbf;
         color: #434455;
 }
 /*---------section-four---------*/
-.section-four {
+.section-four-foto {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -164,7 +164,7 @@ background: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
 }
-/*---------section-four---------*/
+/*---------section-footer---------*/
 .page-footer {
     background: #2e2f42;
 }
