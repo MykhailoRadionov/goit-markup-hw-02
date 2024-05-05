@@ -78,7 +78,7 @@ justify-content: space-between;
 .page-nav {
     display: flex;
 justify-content: space-between;
-margin-right: 76px;
+
 align-items: center;
 
 }
@@ -90,6 +90,7 @@ align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 } 
 .color-logo {
     color: #2e2f42;
@@ -259,7 +260,7 @@ width: calc((100% - 72px) / 4);
         text-align: center;
         text-transform: capitalize;
         margin-bottom: 72px;
-        margin-bottom: 8px
+        
 }
 .menu-section-thre {
     display: flex;
@@ -269,14 +270,16 @@ width: calc((100% - 72px) / 4);
 .list-thre {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-        
+        margin-right: 24px;
         width: calc((100% - 72px) / 4);
         height: 380px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.list-thre-class {
+margin-right: 0px;
+}
     .li-div-section-three {
-padding-top: 32px;
-    padding-bottom: 32px;
+
     }
     
 .paragraph-thre-text{
@@ -328,11 +331,12 @@ padding-top: 32px;
     column-gap: 24px;
     
         height: 420px;
-        width: calc((100% - 48px) / 3);
+        width: calc((100% - 72px) / 4);
       
 }
 .div-section-four {
     padding: 32px 16px;
+
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px
@@ -343,7 +347,7 @@ padding-top: 32px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-   
+margin-bottom: 8px
 }
 .text-section-four {
 
@@ -352,6 +356,7 @@ padding-top: 32px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 
