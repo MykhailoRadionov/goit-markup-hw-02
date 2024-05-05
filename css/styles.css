@@ -225,6 +225,7 @@ width: calc((100% - 72px) / 4);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .text-section-two {
     font-weight: 400;
@@ -249,7 +250,7 @@ width: calc((100% - 72px) / 4);
 .our--team-section {
     background-color: hsl(240, 69%, 97%);
 }
-.section-thre-foto {
+.section-thre-foto{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -258,6 +259,7 @@ width: calc((100% - 72px) / 4);
         text-align: center;
         text-transform: capitalize;
         margin-bottom: 72px;
+        margin-bottom: 8px
 }
 .menu-section-thre {
     display: flex;
@@ -271,9 +273,13 @@ width: calc((100% - 72px) / 4);
         width: calc((100% - 72px) / 4);
         height: 380px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            
 }
-.paragraph-thre{
+    .li-div-section-three {
+padding-top: 32px;
+    padding-bottom: 32px;
+    }
+    
+.paragraph-thre-text{
     
         font-weight: 500;
         font-size: 20px;
@@ -292,6 +298,7 @@ width: calc((100% - 72px) / 4);
         text-align: center;
         margin-top: 8px;
         margin-bottom: 32px;
+        
 }
 
 
@@ -315,11 +322,20 @@ width: calc((100% - 72px) / 4);
     margin-bottom: 72px;
 }
 .menu-section-four {
+    flex-wrap: wrap;
+    row-gap: 48px;
     display: flex;
     column-gap: 24px;
-    width: 360px;
+    
         height: 420px;
+        width: calc((100% - 48px) / 3);
       
+}
+.div-section-four {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px
 }
 .paragraph-four {
     font-weight: 500;
