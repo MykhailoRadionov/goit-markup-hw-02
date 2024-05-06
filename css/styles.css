@@ -268,13 +268,13 @@ width: calc((100% - 72px) / 4);
     display: flex;
     column-gap: 24px;
     height: 380px;
-    
+    width: calc((100% - 72px) / 4);
 }
 .list-thre {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
         margin-right: 24px;
-        width: calc((100% - 72px) / 4);
+       
         height: 380px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -335,15 +335,20 @@ padding: 32px 0;
     column-gap: 24px;
     
         height: 420px;
-        width: calc((100% - 48px) / 3);
+        width: calc((100% - 144px) / 6);
       
+}
+.list-four {
+    
+        
 }
 .div-section-four {
     padding: 32px 16px;
 
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    
 }
 .paragraph-four {
     font-weight: 500;
