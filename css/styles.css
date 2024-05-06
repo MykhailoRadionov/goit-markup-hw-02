@@ -290,7 +290,7 @@ width: calc((100% - 72px) / 4);
 
     .li-div-section-three {
 
-padding: 32px 16px;
+padding: 32px 0;
 border: 1px solid #e7e9fc;
     }
     
