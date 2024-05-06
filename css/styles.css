@@ -210,7 +210,16 @@ background: #404bbf;
 /*------------------------section-two----------------------*/
 
 .visually-hidden {
-    clip-path: inset(100%);
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .menu-section-two {
@@ -334,18 +343,18 @@ padding: 32px 0;
     display: flex;
     column-gap: 24px;
     
-        height: 420px;
-        width: calc((100% - 144px) / 6);
+     
+        width: calc((100% - 48px) / 3);
       
 }
 .list-four {
-    
-        
+    width: calc((100% - 48px) / 3);
+    flex-basis: 360px;
 }
 .div-section-four {
-    padding: 32px 16px;
+    padding: 32px 0;
 
-    border: 1px solid #e7e9fc;
+    
     border-top: none;
     margin-bottom: 8px;
     
