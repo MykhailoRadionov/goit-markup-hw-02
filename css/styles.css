@@ -275,7 +275,7 @@ width: calc((100% - 72px) / 4);
 }
 .menu-section-thre {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     height: 380px;
     
 }
@@ -289,7 +289,8 @@ width: calc((100% - 72px) / 4);
 }
 
     .li-div-section-three {
-padding: 32px 16p;
+
+padding: 32px 16px;
 border: 1px solid #e7e9fc;
     }
     
